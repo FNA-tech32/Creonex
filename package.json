@@ -1,0 +1,46 @@
+{
+  "name": "creonex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Creonex — Modern Digital Solutions, Web Engineering & Digital Studio Portfolio",
+  "homepage": "https://creonex.github.io/portfolio/",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gh-pages": "^2.2.0",
+    "jquery": "^3.4.1",
+    "lightbox2": "^2.11.0",
+    "normalize.css": "^8.0.1",
+    "popper.js": "^1.15.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.3.0",
+    "react-typed": "^1.1.2",
+    "typed.js": "^2.0.10"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.5"
+  }
+}
