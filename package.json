@@ -2,7 +2,7 @@
   "name": "creonex",
   "version": "1.0.0",
   "private": true,
-  "description": "Creonex — Modern Digital Solutions, Web Engineering & Digital Studio Portfolio",
+  "description": "Creonex \u2014 Modern Digital Solutions, Web Engineering & Digital Studio Portfolio",
   "homepage": "https://creonex.github.io/portfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
@@ -18,9 +18,9 @@
     "typed.js": "^2.0.10"
   },
   "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "start": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
